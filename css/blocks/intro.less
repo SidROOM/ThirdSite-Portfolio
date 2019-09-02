@@ -1,0 +1,46 @@
+// main: ../style.less
+
+.intro {
+
+}
+
+.intro_inner {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    position: relative;
+    background: url("/img/") right bottom no-repeat;
+
+    border-bottom: 1px solid fade(@grey, 30%);
+}
+
+.intro_content {
+    width: 50%;
+}
+
+.intro_subtitle {
+    font-size: 2.13rem;
+    columns: @black;
+    font-weight: 200;
+}
+
+.intro_title {
+    margin-bottom: 5px;
+
+    font-size: 3rem;
+    columns: @black;
+    font-weight: 700;
+}
+
+.intro_text {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    columns: fade(@black, 70%);
+}
+
+.intro_photo {
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    z-index: 1;
+}
